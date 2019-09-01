@@ -1,0 +1,27 @@
+.my-primary-bg {
+    background-color: #013243
+}
+
+.navbar-brand>image {
+    height: 38px;
+}
+
+.carousel img {
+    height: 400px;
+}
+
+.card-img-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.card-img-overlay:hover {
+    opacity: 1;
+    cursor: pointer;
+}
